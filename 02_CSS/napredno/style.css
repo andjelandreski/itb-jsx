@@ -1,0 +1,99 @@
+p {
+    color: grey;
+}
+
+/*Kada vise elemenata imaju isto svojstvo*/
+h3, h4 {
+    color: orange;
+}
+
+/*Pristupanje klasi*/
+.desno_poravnanje {
+    text-align: right;
+}
+
+.crveni_tekst {
+    color: red;
+}
+
+.drugi, #treci{
+    background-color: yellow;
+}
+
+/*Pristupanje id-u*/
+#treci {
+    font-style: italic;
+    border: solid 3px red;
+    /*border parametri: vrsta linije, debljina linije, boja linije*/
+}
+
+/*
+Prioritet selektor element < klasa < id < inline 
+!important gazi sve! 
+*/
+li {
+    color: limegreen;
+}
+
+.stavka {
+    color: blue;
+}
+
+#prva_stavka {
+    color: orange;
+}
+
+li {
+    color: purple;
+}
+
+#cetvrta_stavka {
+    color: brown !important;
+}
+
+#peta_stavka {
+    color: bisque !important;
+}
+
+/*Kombinator razmak - svi potomci u div tagu, koji su p tag*/
+div p{
+    color: aquamarine;
+}
+
+/* Kombinator > - svi potomci u div tagu ciji su direktni potomci*/
+div>p {
+    border: 1px solid green;
+}
+
+/*Stilizacija linka*/
+a {
+    color: lime;
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+/*Pseudo selektori*/
+p:first-child {
+    font-weight: bold;
+}
+
+/*svaki treci*/
+li:nth-child(3n) {
+    font-weight: bold;
+}
+
+/*bas treci*/
+li:nth-child(3) {
+    text-decoration: line-through;
+}

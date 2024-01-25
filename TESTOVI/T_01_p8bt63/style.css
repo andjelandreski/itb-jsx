@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding-bottom: 0;
+}
+
+.topbar {
+    width: 100%;
+}
+
+.topbar ul {
+    overflow: hidden;
+}
+
+.topbar ul li{
+    float: left;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    background-color: orange;
+    padding: 10px 0px 10px 0px;
+    border: 1px solid white;
+}
+
+.topbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.topbar ul li:hover{
+    background-color: rgb(150, 99, 17);
+    cursor: pointer;
+}
+
+section h1{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: brown;
+
+}
+
+.col-4 img{
+    width: 90%;
+}
+
+.col-4 p{
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: beige;
+}
+
+footer p img{
+    width: 50px;
+    float: right;
+}
+
+.row{
+    width: 100%;
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    height: 400px;
+    background-color: burlywood;
+    position: relative;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    footer p img{
+        width: 40px;
+    }
+}

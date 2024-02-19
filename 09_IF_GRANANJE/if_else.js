@@ -13,7 +13,7 @@ let zapremina = 70;
 if(zapremina <= 100){
     document.write("<p style='color: green'>Pack up</p>");
 }
-else {
+else {  
     document.write("<p style='color: red'>Throw away</p>")
 }
 

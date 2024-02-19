@@ -11,7 +11,7 @@ let doPonoci = 24 * 60 - odPonoci;
 console.log("Minuta do ponoci: " + doPonoci);
 
 //Zadatak 2
-odPonoci = 30;
+odPonoci = 30;  
 let sat1 = Math.floor(odPonoci / 60);
 let min1 = odPonoci % 60;
 console.log(sat1, min1);
